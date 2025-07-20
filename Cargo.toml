@@ -1,0 +1,13 @@
+[package]
+name = "RustVulkan"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ash = "0.37.3"
+ash-window = "0.12.0"
+winit = "0.28.6"
+raw-window-handle = "0.5.2"
+
+[build-dependencies]
+shaderc = "0.8.3"
